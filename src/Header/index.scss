@@ -1,7 +1,7 @@
 .app-header {
-  /* background-image: url("https://i.imgur.com/HlmWDMU.jpg"); */
-  /* height: 350px; */
-  /* color: white; */
+  background-image: url("../cute-eiffel-tower-wallpaper-background-wallpapers-other-picture-cute-wallpaper.jpg"); 
+  height: 420px; 
+  color: white; 
   font-weight: bold;
 }
 
@@ -20,24 +20,23 @@
 
 .app-header .current-budget-header {
   font-size: 60px;
-  margin-bottom: 0px;
 }
 
 .app-header .budget-number {
   font-size: 30px;
-  display: inline-block;
 }
 
 .app-header .income,
 .expense {
   font-size: 30px;
+  padding: 8px;
+  border-radius: 4px;
   display: inline-block;
 }
 
 .app-header .income {
   margin-top: 10px;
   margin-bottom: 6px;
-  margin-right: 150px;
   background: linear-gradient(
     to bottom,
     #4ee728,
@@ -46,7 +45,6 @@
 }
 .app-header .expense {
   margin-top: 4px;
-  margin-left: 150px;
   background: linear-gradient(
     to bottom,
     #e72848,

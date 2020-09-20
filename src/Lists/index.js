@@ -6,7 +6,8 @@ import "./index.scss";
 function Lists() {
   return (
     <div className="income-expense-lists">
-      Lists will go here
+      <IncomeList />
+      <ExpenseList />
     </div>
   );
 }
